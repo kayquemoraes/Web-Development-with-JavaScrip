@@ -1,0 +1,15 @@
+img{
+    width: 200px;
+    animation: spfc 2s infinite;
+}
+
+@keyframes spfc{
+    0% {
+        width:200px;
+    }
+    30%{
+        width: 400px;
+    }
+
+
+}
