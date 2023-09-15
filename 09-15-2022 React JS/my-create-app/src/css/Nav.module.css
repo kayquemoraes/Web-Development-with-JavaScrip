@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.menu{
+    width: 100%;
+    height: 80px;
+    background-color: aqua;
+}
+
+.tlink{
+    color: blueviolet;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.tlink:hover{
+    background-color: blue;
+    color: white;
+    font-size: 35px;
+}
