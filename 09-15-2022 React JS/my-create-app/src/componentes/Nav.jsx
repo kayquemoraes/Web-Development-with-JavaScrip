@@ -6,10 +6,10 @@ function Nav() {
   
   return (
     <>
-    <section className={styles.menu}></section>
-      <Link to="produtos">Produtos</Link>
-      <Link to="exemplo1">Exemplo1</Link>
-
+    <section className={styles.menu}>
+      <Link to="produtos" className={styles.tlink}>Produtos</Link>
+      <Link to="exemplo1" className={styles.tlink}>Exemplo1</Link>
+    </section>
     </>
   )
 }
